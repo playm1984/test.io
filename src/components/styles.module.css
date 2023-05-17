@@ -1,0 +1,40 @@
+.imagePanel {
+  width: 100%;
+  text-align: end;
+}
+
+.drag_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imagePanel8 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  height: 310px;
+  overflow: hidden;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+.img > img {
+  height: 100%;
+  overflow: hidden;
+}
+
+.showBtn {
+  background-color: black;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 8px 14px;
+  border: none;
+  margin: 0 0 20px 20px;
+}

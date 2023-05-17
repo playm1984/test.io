@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 70%;
+  width: 800px;
+  background-color: #e2e2e2;
+  padding: 10px;
+}
+
+.contaener {
+  background-color: #fff;
+}

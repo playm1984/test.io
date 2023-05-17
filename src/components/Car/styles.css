@@ -1,0 +1,88 @@
+.my-carousel {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+.car_img {
+  width: 100%;
+}
+
+.drop-zone {
+  width: 100%;
+  height: 100%;
+}
+
+.car_item {
+  height: 300px;
+  background-size: cover;
+  border: 2px solid #929292;
+}
+
+.drop-zone {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.drop-zone > p {
+  text-align: center;
+  width: 100px;
+  margin-right: 100px;
+  border: 3px dashed #929292;
+}
+
+.drop-zone > img {
+  width: 250px;
+  height: 167px;
+  background-size: cover;
+  margin-right: 40px;
+}
+
+.page_num {
+  margin: 20px;
+}
+
+.add_remove_page {
+  text-align: end;
+}
+
+.add_remove_page > button {
+  background-color: black;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 8px 14px;
+  border: none;
+  margin: 0 15px 0;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(800px + 20%);
+  height: calc(300px + 20%);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #fff;
+}
+
+.modal > img {
+  height: 250px;
+  margin-right: 80px;
+}
+
+.btnChangePage {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
